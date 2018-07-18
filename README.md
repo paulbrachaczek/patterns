@@ -17,4 +17,10 @@ ____
 ##  Fasada (wzorzec strukturalny)
 
 Fasada to wzorzec, który zapewnia wygodny, uproszczony interfejs wyższego poziomu dla większej części kodu, ukrywając jego prawdziwą złożoność. Często wykorzystywany w bibliotekach dla wygody i zapewnienia kompatybilności ze starszymi przeglądarkami. 
-Wady wzorcu to m. in. mmiejsza wydajnośc - $('#') zamiast getElementById.
+Wady wzorca to m. in. czasem mmiejsza wydajnośc - np. $('#') zamiast getElementById.
+
+___
+
+## Flyweight (wzorzec strukturalny)
+
+Redukuje ilosc kodu potrzebnego do stworzenia wielu podobnych obiektów. 

@@ -1,46 +1,25 @@
-var basketModule = (function () {
+let supriseModule = (function () {
  
     // privates
    
-    var basket = [];
+    let _gifts = ['kotek', 'piesek', 'małpka', 'rózga'];
    
-    function doSomethingPrivate() {
-      //...
-    }
-   
-    function doSomethingElsePrivate() {
-      //...
-    }
-   
-    // Return an object exposed to the public
-    return {
-   
-      // Add items to our basket
-      addItem: function( values ) {
-        basket.push(values);
-      },
-   
-      // Get the count of items in the basket
-      getItemCount: function () {
-        return basket.length;
-      },
-   
-      // Public alias to a private function
-      doSomething: doSomethingPrivate,
-   
-      // Get the total value of items in the basket
-      getTotal: function () {
-   
-        var q = this.getItemCount(),
-            p = 0;
-   
-        while (q--) {
-          p += basket[q].price;
-        }
-   
-        return p;
-      }
+    let _getSuprise = function() {
+      return _gifts[Math.floor(Math.random()*_gifts.length)];
     };
-  })();
+   
+    //public
+    return {
+      
+      getSuprice: _getSuprise
+      
+    };
+})();
+
+(function(){
+  supriseModule.getSuprise();
+})();
+
+
 
   
