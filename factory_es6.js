@@ -15,7 +15,7 @@ class vodFactory{
                 vod = new Showmax(name);
                 break;
             default:
-                console.log('vod now exist');
+                console.log('vod not exist');
 
             
         }

@@ -17,4 +17,4 @@ class Book {
     }
 }
 
-let it = new Book('it', 'stephen King', 12345, 700, 1990, 'horror');
+let it = new Book('It', 'Stephen King', 12345, 700, 1990, 'horror');
