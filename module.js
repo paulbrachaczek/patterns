@@ -1,4 +1,4 @@
-let supriseModule = (function () {
+// let supriseModule = (function () {
  
     // privates
    

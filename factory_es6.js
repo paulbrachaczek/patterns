@@ -51,4 +51,4 @@ class Showmax {
 
 const factory = new vodFactory();
 const hbo = factory.create('HboGo');
-const hbo = factory.create('Netflix');
+const netflix = factory.create('Netflix');
